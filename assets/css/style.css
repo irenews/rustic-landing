@@ -1,0 +1,50 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+/* Global */
+body { font-family: 'Quicksand', sans-serif; width: 100%; }
+h1, h3 { font-family: 'Dancing Script', cursive; }
+h3 { font-size: 38px; }
+@media (max-width: 576px) { 
+    h3 { font-size: 30px; } 
+}
+
+    /* Colours */
+    .c-brown { color: #a88d6f; }
+    .bg-brown { background: #a88d6f; }
+    .c-blue { color: #9aa5a7; }
+    .bg-blue { background: #9aa5a7; }
+    .c-cream { color: #f6f5f1; }
+    .bg-cream { background: #f6f5f1; }
+    .c-black { color: #242424; }
+    .bg-black { background: #242424; }
+
+    /* Colours - hover */
+    .c-brown_h:hover { color: #a88d6f; }
+    .c-black_h:hover { color: #242424; }
+
+/* Header */
+header #up-header{
+    height: 40px;
+}
+
+/* Nav */
+nav {
+    height: 120px;
+}
+nav .dropdown-toggle::after {
+    display: none;
+}
+nav .btn:focus {
+    box-shadow: 0 0 0 0rem rgb(0 123 255 / 25%);
+}
+nav .dropdown-item:active {
+    background: #a88d6f;
+}
+@media (max-width: 576px) { 
+    nav { height: 80px; }
+}
+
+
