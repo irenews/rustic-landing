@@ -11,6 +11,11 @@ h3 {
     font-family: 'Dancing Script', cursive; 
     font-size: 38px;
 }
+h4 { 
+    font-size: 1.6rem;
+    font-weight: 700;
+ }
+
 @media (max-width: 768px) { 
     h1, h2 { font-size: 1.5rem;}
     p { font-size: 15px;}
@@ -31,6 +36,8 @@ h3 {
 
     /* Colours - hover */
     .c-brown_h:hover { color: #a88d6f; }
+    .bg-brown_h:hover { background: #a88d6f; }
+    .bg-blue_h:hover { background: #9aa5a7; }
     .c-black_h:hover { color: #242424; }
 
 /* Header */
@@ -61,6 +68,14 @@ header #banner #h1 {
     bottom: 0;
     left: 0;
     margin: auto;
+}
+
+/* Section image-text */
+#image-text .dk-l-image img {
+    max-height: 700px !important;
+}
+#image-text .r-text {
+    padding: 15%;
 }
 
 
