@@ -4,7 +4,11 @@
 
 
 /* Global */
-body { font-family: 'Quicksand', sans-serif; width: 100%; }
+body { 
+    font-family: 'Quicksand', sans-serif; 
+    width: 100%; 
+    color: #242424; 
+}
 h1 { font-size: 2rem; }
 h2 { font-size: 1.8rem; }
 h3 { 
@@ -71,11 +75,18 @@ header #banner #h1 {
 }
 
 /* Section image-text */
-#image-text .dk-l-image img {
+#image-text .dk-l-image img, 
+#text-image .dk-l-image img{
     max-height: 700px !important;
 }
-#image-text .r-text {
+#image-text .r-text,
+#text-image .l-text {
     padding: 15%;
+}
+
+#text-image .form-control-plaintext {
+    background: #fff;
+    padding-left: .375rem;
 }
 
 
