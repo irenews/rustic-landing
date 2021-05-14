@@ -47,7 +47,7 @@ h4 {
 
 /* Header */
 header #up-header{
-    height: 40px;
+    min-height: 40px;
 }
 
 /* Nav */
